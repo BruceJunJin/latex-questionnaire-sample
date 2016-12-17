@@ -1,0 +1,90 @@
+%!TEX program = xelatex
+\documentclass[UTF8]{ctexart}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{verbatim}
+\begin{document}
+\pagestyle{empty}
+感谢您百忙之中能够抽出时间参与我们的调查。本次调查为匿名调查，将不会记录您的任何署名个人信息，请放心填写问卷，谢谢！
+\newcommand{\tabincell}[2]
+{
+\begin{tabular}{@{}#1@{}}#2
+\end{tabular}
+}  
+\begin{table}[H]  
+  \centering  
+  \scriptsize  
+  \caption{车险调查问卷}  
+  \label{notations}  
+  \begin{tabular}{ll}  
+    \\[-2mm]  
+    \hline  
+    \hline
+    \\[-2mm]  
+    {\bf \normalsize 问题}&\qquad {\bf \normalsize 回答or选择}\\  
+    \hline
+    \vspace{1mm}\\[-3mm]
+    \normalsize 
+    状况相关  &  \\
+    \vspace{1mm}\\[-3mm]  
+    1.您的驾龄      &   \tabincell{l}{\_\_\_\_\_\_\_年}\\  
+    \vspace{1mm}\\[-3mm] 
+    2.最近5年中，您有无交通罚单     &  \tabincell{l}{有/无，若有，印象里平均一年几张：\_\_\_\_\_\_\_ }\\  
+    \vspace{1mm}\\[-3mm]   
+    3.你的爱车在近5年中是否出过交通事故      &  \tabincell{l}{有/无，若有，出过几次：\_\_\_\_\_\_\_ }\\
+    \vspace{1mm}\\[-3mm]
+    4. 您的车出厂价大概为  &   \tabincell{l}{\_\_\_\_\_\_\_万元}\\
+    \vspace{1mm}\\[-3mm]
+    5.您现在使用的汽车已经被使用了  &   \tabincell{l}{\_\_\_\_\_\_\_年了}\\
+    \vspace{1mm}\\[-3mm] 
+    \normalsize
+    行为选择相关（非敏感）  &  \\
+    \vspace{1mm}\\[-3mm]
+    6.您大概多久多一次汽车保养 &  \tabincell{l}{间隔：\_\_\_\_\_\_\_}\\
+    \vspace{1mm}\\[-3mm]  
+    7.您在开车时收听什么    & \tabincell{l}{综艺广播/音乐/不听/其他：\_\_\_\_\_\_\_}\\ 
+    \vspace{1mm}\\[-3mm]  
+    8.您最经常在什么样的路况行驶 & \tabincell{l}{选择：\_\_（A.空旷~B.正常~C.拥堵）}\\ 
+    \vspace{1mm}\\[-3mm] 
+    9.您是否经常在早晚高峰期行驶 & \tabincell{l}{选择：\_\_（A.是~B.否）}\\
+    \vspace{1mm}\\[-3mm]
+    \normalsize 
+    行为选择相关（敏感）  &  \\
+    \vspace{1mm}\\[-3mm]     
+    10（1）.（摸到红条作答）您是否存在一边开车一边打手机现象  &   \tabincell{l}{选择：\_\_（A.经常~B.有时~C.很少~D.从不）}\\  
+     \vspace{1mm}\\[-3mm]  
+    10（2）.（摸到蓝条作答）您的生日是在哪月    & \tabincell{l}{选择：\_\_（A.1至3~B.4至6~C.7至9~D.10至12）}\\  
+    \vspace{1mm}\\[-3mm] 
+    11 (1) . (摸到红条作答)您在开车时是否会要求正副驾驶系安全带 &   \tabincell{l}{选择：\_\_（A.会~B.不会）}\\
+    \vspace{1mm}\\[-3mm]
+    11 (2) . (摸到蓝条作答)您投掷的点数为 &   \tabincell{l}{选择：\_\_（A.小于等于3~B.大于等于三）}\\
+    \vspace{1mm}\\[-3mm]
+    12（1）. (摸到红条作答)如果现在是黄灯且车少，您更倾向于  &   \tabincell{l}{选择：\_\_（A.加速冲过~B.停下来等）}\\
+    \vspace{1mm}\\[-3mm]
+    12（2）. (摸到蓝条作答)您投掷的点数为 &   \tabincell{l}{选择：\_\_（A.小于等于3~B.大于等于三）}\\
+    \vspace{1mm}\\[-3mm]
+    13（1）. (摸到红条作答)对于行车，您倾向于  &  \tabincell{l}{选择：\_\_（A.开快一点，时间要紧~B.均速行驶）}\\
+    \vspace{1mm}\\[-3mm]
+    13（2）. (摸到蓝条作答)您投掷的点数为 &   \tabincell{l}{选择：\_\_（A.小于等于3~B.大于等于三）}\\
+    \vspace{1mm}\\[-3mm]
+    14（1）.(摸到红条作答)您是否做到了每年年检  &   \tabincell{l}{选择：\_\_（A.当然~B.有过漏检）}\\
+    \vspace{1mm}\\[-3mm]
+    14（2）. (摸到蓝条作答)您投掷的点数为 &   \tabincell{l}{选择：\_\_（A.小于等于3~B.大于等于三）}\\
+    \vspace{1mm}\\[-3mm]
+    15（1）.(摸到红条作答)您是否有过疲劳驾驶  &   \tabincell{l}{选择：\_\_（A.经常~B.有过~C.从不）}\\
+    \vspace{1mm}\\[-3mm]
+    15（2）.(摸到蓝条作答)您投掷的点数为 &   \tabincell{l}{选择：\_\_（A.小于等于2~B.3或4~C.大于等于5）}\\
+    \vspace{1mm}\\[-3mm]
+    \normalsize
+    态度相关
+    \vspace{4mm}\\[-3mm]
+    16.您对车载监控获取您的驾驶习惯，并与保费挂钩怎么看  &   \tabincell{l}{选择：\_\_（A.支持~B.反对）}\\
+    \hline  
+    \hline  
+  \end{tabular}  
+\end{table}  
+\par
+谢谢您的配合！
+
+\end{document}
